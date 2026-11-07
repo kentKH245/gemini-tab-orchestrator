@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/fe32f86b-61f8-40a8-8e4c-eb5e5029b9dd
 ## 📂 Project Structure
 
 ```text
-gemini-multi-agent-bridge/
+gemini-tab-orchestrator/
 ├── manifest.json      # Extension configuration (Manifest V3)
 ├── background.js      # Staged pipeline orchestrator & barrier queue
 ├── content.js         # DOM stream observer, injector & pipeline parser
@@ -47,7 +47,7 @@ gemini-multi-agent-bridge/
    * **Tab 2:** `💻 CODER` (Worker)
    * **Tab 3:** `🔍 RESEARCHER` (Worker)
    * **Tab 4:** `🛡️ CRITIC` (Worker)
-   * **Tab 5:** `User defined worker` (Worker)
+   * **Tab 5:** `[Optional] User defined worker` (Worker)
    ---
    <img width="309" height="340" alt="image" src="https://github.com/user-attachments/assets/909d346b-1f41-4e57-8a55-908129aaec42" />
    <img width="308" height="234" alt="image" src="https://github.com/user-attachments/assets/75c74156-12fd-4482-bdc8-5f146c2731f7" />
