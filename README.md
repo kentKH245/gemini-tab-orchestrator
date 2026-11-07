@@ -48,7 +48,12 @@ gemini-multi-agent-bridge/
    * **Tab 3:** `🔍 RESEARCHER` (Worker)
    * **Tab 4:** `🛡️ CRITIC` (Worker)
    * **Tab 5:** `User defined worker` (Worker)
-3. Use the one-click button in the popup to copy the Master system prompt, or structure your master prompt using staged blocks:
+   ---
+   <img width="309" height="340" alt="image" src="https://github.com/user-attachments/assets/909d346b-1f41-4e57-8a55-908129aaec42" />
+   <img width="308" height="234" alt="image" src="https://github.com/user-attachments/assets/75c74156-12fd-4482-bdc8-5f146c2731f7" />
+
+   ---
+4. Use the one-click button in the popup to copy the Master system prompt, or structure your master prompt using staged blocks:
 
 ```text
 --- STAGE 1 ---
@@ -61,4 +66,4 @@ gemini-multi-agent-bridge/
 
 4. Watch your browser tabs collaborate automatically—or trigger the pipeline on the go using the Gemini mobile app!
 
-P.S. The master may finish the work itself if the task is easy, force it to run in orchestrator mode by saying "run/ review with other agents".
+PS. The master may finish the work itself if the task is easy, force it to run in orchestrator mode by saying "run with other agents".
