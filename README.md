@@ -2,6 +2,9 @@
 
 Connect multiple Gemini chat tabs into an automated, multi-stage parallel Master/Worker agent team right inside your browser. Orchestrate complex side projects locally or trigger pipelines remotely straight from the Gemini mobile app.
 
+
+https://github.com/user-attachments/assets/fe32f86b-61f8-40a8-8e4c-eb5e5029b9dd
+
 ---
 
 ## Key Features
