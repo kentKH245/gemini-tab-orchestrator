@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini Tab Orchestrator",
+  "version": "1.2",
+  "description": "Connects multiple Gemini chat tabs into an automated parallel Master/Worker multi-agent system with auto-initialization.",
+  "permissions": [
+    "tabs",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://gemini.google.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://gemini.google.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
