@@ -60,3 +60,5 @@ gemini-multi-agent-bridge/
 ```
 
 4. Watch your browser tabs collaborate automatically—or trigger the pipeline on the go using the Gemini mobile app!
+
+P.S. The master may finish the work itself if the task is easy, force it to run in orchestrator mode by saying "run/ review with other agents".
