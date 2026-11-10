@@ -63,6 +63,7 @@ gemini-tab-orchestrator/
 --- STAGE 2 ---
 @[CODER]: Write implementation based on @[RESEARCHER_OUTPUT] and @[CRITIC_OUTPUT].
 ```
+[Reminder] To save tokens, make sure you either asked CODER to handle changes only and MASTER to assemble, or CODER to handle all with MASTER to report status only.
 
 4. Watch your browser tabs collaborate automatically—or trigger the pipeline on the go using the Gemini mobile app!
 
